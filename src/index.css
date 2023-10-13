@@ -60,3 +60,21 @@ body {
   font-size: x-large;
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .main-div {
+    margin: 30px;
+    /* line-height: 45px; */
+    width: 90vw;
+  }
+  .heading-div {
+    font-size: 10vw;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .output-div {
+    margin-top: 15px;
+    font-size: large;
+    font-weight: 700;
+  }
+}
